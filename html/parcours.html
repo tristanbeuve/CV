@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tristan BEUVE - Parcours</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="public/img/portfolio.svg"/>
+    <link rel="stylesheet" href="styles\responsive.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+<div id="alerte">
+    <h1>Bienvenue sur mon CV</h1>
+    <p class="message">Mon CV n'est pas encore disponible sur téléphone</p>
+    <p class="message">Je vous invite à essayer le lien sur ordinateur ou tablette</p>
+    <p class="message">Merci de votre compréhension</p>
+    <p class="message">Tristan BEUVE</p>
+    <div class="contact">
+        <div class="container">
+            <h2>Où me retrouver ?</h2>
+            <div class="socials-networks">
+                <a href="https://www.linkedin.com/" target="_blank" class="btn btn-outline-light btn-lg"><i
+                        class="bi bi-linkedin"></i> - Linkedin</a>
+                <a href="https://www.instagram.com/" target="_blank" class="btn btn-outline-light btn-lg"><i
+                        class="bi bi-instagram"></i> - Portfolio</a>
+                <a href="https://www.youtube.com/" target="_blank" class="btn btn-outline-light btn-lg"><i
+                        class="bi bi-youtube"></i> - Youtube</a>
+            </div>
+            <div class="footer-contacts">
+                <div class="btn-group" role="group" aria-label="Basic outlined">
+                    <a class="btn text-light" href="tel:+33766329162" target="_blank"><i class="bi bi-telephone"></i>
+                        +33 7 66
+                        32 91 62</a>
+                    <a class="btn text-light" href="mailto:tristanbeuve@protonmail.com" target="_blank"><i
+                            class="bi bi-envelope"></i>
+                        tristanbeuve@protonmail.com</a>
+                </div>
+            </div>
+            <div class="justify-content-end">
+                <a href="public/files/CV_BEUVE_Tristan.pdf" download="CV_BEUVE_Tristan.pdf"
+                   class=" btn btn-lg btn-outline-light" target="_blank">Téléchargez
+                    mon CV <i class="bi bi-file-earmark-arrow-down"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div id="top"></div>
+
+    <nav class="navbar bg-body-tertiary navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <div class="container d-flex justify-content-between">
+                <a class="btn" href="home.html"><i class="bi bi-house"></i><br/> Accueil</a>
+                <a class="btn" href="propos.html"><i class="bi bi-person-circle"></i><br/> À mon Propos</a>
+                <a class="btn" href="competences.html"><i class="bi bi-hammer"></i><br/> Compétences</a>
+                <a class="btn" href="parcours.html"><i class="bi bi-journal-text"></i><br/> Parcours</a>
+
+                <div class="nav-item dropdown">
+                    <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Portfolio <i class="bi bi-backpack3-fill"></i><br/>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-light">
+                        <li><a class="dropdown-item" href="portfolio.html#pro">Projets Professionnels</a></li>
+                        <li><a class="dropdown-item" href="portfolio.html#perso">Projets Personnels</a></li>
+                    </ul>
+                </div>
+                <a class="btn" href="#footer"><i class="bi bi-chat-square-text-fill"></i><br/> Contacts</a>
+            </div>
+        </div>
+    </nav>
+    <div class="consigne">
+        <h1 class="titre">Mon parcours</h1>
+        <p>Survolez les points avec votre curseur pour faire apparaître les informations</p>
+        <div id="avertissement">
+            Attention ce site n'est visible qu'en mode paysage.
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="parcours">
+            <div class="ligne">
+                <h2 id="annee0" class="annee">2022</h2>
+                <article class="etape etape0">
+                    <h3>Avril-Août</h3>
+                    <div class="point" onmouseover="changeTitleClass()" onmouseout="resetTitleClass()">
+                        <h4 class="text_etape">La Toque Angevine</h4>
+                        <p class="text_etape">
+                            J'accomplis des <b>missions d’entretien de nuit</b> sur les lignes
+                            de productions de denrées alimentaires au service de la Toque Angevine.
+                        </p>
+                    </div>
+                </article>
+                <article class="etape etape1">
+                    <h3>Mai</h3>
+                    <div class="point">
+                        <h4 class="text_etape">Certification</h4>
+                        <p class="text_etape">
+                            256 pix certifiés.
+                        </p>
+                    </div>
+                </article>
+                <article class="etape etape2">
+                    <h3>Juillet</h3>
+                    <div class="point">
+                        <h4 class="text_etape">Baccalauréat Général</h4>
+                        <p class="text_etape">J'obtiens mon baccalauréat général au lycée Lycée Victor Hugo à
+                            Château-Gontier-sur-Mayenne
+                            avec les spécialités :<br/>
+                            <b>- Numérique et Science de l'Informatique<br/>
+                                - Langue, Littérature, Culture Étrangère Anglais</b>
+                            <br/> et les Options :<br/>
+                            <b>- Maths Complémentaires<br/>
+                                - Cinéma Audiovisuel</b>
+                        </p>
+                    </div>
+                </article>
+                <article class="etape etape3">
+                    <h3>Octobre</h3>
+                    <div class="point">
+                        <h4 class="text_etape">Rentrée au BTS</h4>
+                        <p class="text_etape">
+                            Je rentre à Institut Informatique Appliquée à Saint-Berthevin
+                            avec l'option Solution Logiciel et Application Métiers.
+                        </p>
+                    </div>
+                </article>
+                <h2 id="annee1" class="annee annee1">2023</h2>
+                <article class="etape etape4">
+                    <h3>Avril - Juin</h3>
+                    <div class="point">
+                        <h4 class="text_etape">Stage aux Restaurants du Coeur</h4>
+                        <p class="text_etape">
+                            J'effectue un stage dont ma mission principale est de <b>concevoir et créer d'une
+                            application
+                            de messagerie interne</b> à l'association afin de réguler les approvisionnements de denrées
+                            alimentaires.
+                        </p>
+                    </div>
+                </article>
+                <article class="etape etape5">
+                    <h3>Juillet-Août</h3>
+                    <div class="point">
+                        <h4 class="text_etape">Intuis</h4>
+                        <p class="text_etape">
+                            J'effectue un emploi saisonnier qui consite en la <b>fabrication et
+                            prépation de câbles éléctrique</b>.
+                        </p>
+                    </div>
+                </article>
+                <article class="etape etape6">
+                    <h3>Janvier-Février</h3>
+                    <div class="point">
+                        <h4 class="text_etape">Stage à Win Your Star</h4>
+                        <p class="text_etape">
+                            J'intègre l'entreprise de formation de coaching Win Your Star afin de <b>réarranger leur
+                            site
+                            internet et de développer l'application</b> de leur "serious game" en version
+                            dématérialisée.
+                        </p>
+                    </div>
+                </article>
+                <div class="arrow"><i class="bi bi-caret-right-fill"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="up-button">
+        <a class="btn btn-lg text-light" href="#top"><i class="bi bi-chevron-up"></i></a>
+    </div>
+    <div class="footer" id="footer">
+        <div class="container">
+            <h2>Où me retrouver ?</h2>
+            <div class="socials-networks">
+                <a href="https://www.linkedin.com/" target="_blank" class="btn btn-outline-light btn-lg"><i
+                        class="bi bi-linkedin"></i> - Linkedin</a>
+                <a href="https://www.instagram.com/" target="_blank" class="btn btn-outline-light btn-lg"><i
+                        class="bi bi-instagram"></i> - Portfolio</a>
+                <a href="https://www.youtube.com/" target="_blank" class="btn btn-outline-light btn-lg"><i
+                        class="bi bi-youtube"></i> - Youtube</a>
+            </div>
+            <div class="footer-contacts">
+                <div class="btn-group" role="group" aria-label="Basic outlined">
+                    <a class="btn text-light" href="tel:+33766329162" target="_blank"><i class="bi bi-telephone"></i>+33766329162</a>
+                    <a class="btn text-light" href="mailto:tristanbeuve@protonmail.com" target="_blank"><i
+                            class="bi bi-envelope"></i>
+                        tristanbeuve@protonmail.com</a>
+                </div>
+            </div>
+            <div class="justify-content-end">
+                <a href="public/files/CV_BEUVE_Tristan.pdf" download="CV_BEUVE_Tristan.pdf"
+                   class=" btn btn-lg btn-outline-light" target="_blank">Téléchargez
+                    mon CV <i class="bi bi-file-earmark-arrow-down"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<script src="fontawesome-free-6.5.1-web/js/all.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
